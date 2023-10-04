@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Projeto 3 - Formulário</title>
+</head>
+
+<body>
+    <h1 class="titulo1">Tela de Cadastro</h1>
+    <h2 class="titulo2">Dados de Cadastro</h2>
+
+    <form action="" class="formulario">
+    <!--     <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <div class="campo_input">
+                <label for="nome">Nome completo</label>
+                <input type="text" id="nome" name="nome" minlength="5" maxlength="5" required>
+            </div>
+
+            <div class="dupla">
+                <div class="campo_input">
+                    <label for="nasc">Nascimento</label>
+                    <input type="date" id="nasc" name="nascimento">
+                </div>
+                <div class="campo_input">
+                    <label for="tel">Contato</label>
+                    <input type="tel" id="tel" name="telefone" placeholder="(XX) XXXXX-XXXX">
+                </div>
+            </div>
+
+            <div class="campo_input">
+                <label for="mail">E-mail</label>
+                <input type="email" id="mail" name="email">
+            </div>
+        </fieldset> -->
+
+        <fieldset>
+            <legend>Endereço</legend>
+
+            <div class="campo_input">
+                <label for="cep">CEP</label>
+                <input type="text" id="cep" name="cep">
+            </div>
+            <div class="campo_input">
+                <label for="endereco">Endereço</label>
+                <input type="text" id="endereco" name="endereco">
+            </div>
+
+            <div class="dupla">
+                <div class="campo_input">
+                    <label for="numero">Número</label>
+                    <input type="text" id="numero" name="numero">
+                </div>
+                <div class="campo_input">
+                    <label for="complemento">Complemento</label>
+                    <input type="text" id="complemento" name="complemento">
+                </div>
+            </div>
+
+            <div class="campo_input">
+                <label for="bairro">Bairro</label>
+                <input type="text" id="bairro" name="bairro">
+            </div>
+
+            <div class="dupla">
+                <div class="campo_input">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" name="cidade">
+                </div>
+                <div class="campo_input">
+                    <label for="uf">Estado</label>
+                    <select name="uf" id="uf">
+                        <option value="0">Selecione um estado</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">Sao Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                </div>
+            </div>
+        </fieldset>
+        <div class="botao">
+            <input type="submit" value="Enviar Formulário" id="btn_submit">
+        </div>
+    </form>
+
+    <footer class="rodape">
+        <p>Desenvolvido por © <span>Fic Manha - Sala 15</span></p>
+    </footer>
+    <script src="script/scriptAsync.js"></script>
+</body>
+
+</html>
